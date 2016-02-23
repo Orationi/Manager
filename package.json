@@ -1,7 +1,8 @@
 {
   "name": "orationi-manager",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "repository": "",
+  "engines":{"node":"5.6.0"},
   "description": "Orationi.Manager nodejs version proof of concept",
   "main": "index.js",
   "scripts": {
