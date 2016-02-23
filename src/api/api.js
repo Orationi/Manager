@@ -1,0 +1,1 @@
+export const API_URL = 'http://master.orationi.org:57345/Orationi/Master/Api/v1';
