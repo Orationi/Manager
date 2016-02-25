@@ -1,3 +1,7 @@
+#Manager
+
+[![Build status](https://ci.appveyor.com/api/projects/status/tuved2sh7gmwdako?svg=true)](https://ci.appveyor.com/project/ProjectOrationi/manager)
+
 # Setup
 
 ## Code editing
