@@ -32,6 +32,21 @@ You can follow these guidelines to setup your VSC: https://medium.com/@viatsko/m
 2. Run node-debug index.js
 
 
+## Deploy
+
+1. Copy source files without node_modules and dist to target machine
+2. Run `npm i`
+3. Run `SET NODE_ENV=production` (for PowerShell: `$env:NODE_ENV="production"`)
+4. Run `npm run build`
+5. Set working folder as IIS website's homedir.
+
+## Setup windows machine for deployment
+
+1. Install IIS
+2. Install URL Rewrite module
+3. Install iisnode. Run tests according to documentation to make sure it works.
+4. Wait for web.config check-in.
+
 # Tips
 
 If you terminal (during npm install or during execution process) looks stuck: just hit enter.
